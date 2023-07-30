@@ -52,7 +52,7 @@ body {
   font-size: 16px;
   line-height: 1.1;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 1090px;
   overflow-x: hidden;
   background-color: var(--bgColor1);
   color: var(--txtColor);
@@ -98,7 +98,6 @@ h1, h2, h3, p, fieldset {
   padding: 0 var(--contentInnerPadX);
   max-width: var(--containerW);
   min-height: 10vh;
-  height: 100%;
   position: relative;
 }
 
@@ -125,7 +124,7 @@ h1, h2, h3, p, fieldset {
   color: rgba(0, 0, 0, 0.8);
 }
 
-.nav {
+.nav ul {
   leading-trim: both;
   text-edge: cap;
   font-family: HelveticaNeueCyr;
@@ -195,7 +194,7 @@ h1, h2, h3, p, fieldset {
 }
 
 .footer {
-  position: fixed;
+  position: absolute;
   top: 600px;
   right: 70px;
   display: flex;
